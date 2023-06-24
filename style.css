@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(32, 55%, 62%);
+    color: hsl(0, 0%, 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: hsl(49, 93%, 82%);
+    width: 60vw;
+    height: 95vh;
+    padding: 20px;
+}
+
+#header-box {
+    color:hsl(32, 51%, 15%);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 10%;
+    padding-top: 1.6rem;
+}
+
+#text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    color:hsl(32, 51%, 15%);
+    border: 1px solid hsl(32, 51%, 15%);
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#button-box {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    background-color:hsl(32, 55%, 62%);
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0;
+    box-shadow: 5px 5px 0 hsl(32, 51%, 15%);
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li:active {
+    background-color: hsl(49, 93%, 82%);
+    color:hsl(32, 51%, 15%);
+}
+
+#footer {
+    background-color: hsl(49, 93%, 82%);
+    color:hsl(32, 51%, 15%);
+    margin: 0 auto;
+    width: 60vw;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
